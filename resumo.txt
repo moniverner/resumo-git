@@ -1,0 +1,7 @@
+Resumo sobre Git
+
+O Git permite que você retorne a qualquer parte do projeto, pois cada alteração cria um commit.
+
+Três estados dos arquivos dentro do git: ao usar o init inicia-se um repositório local, fazendo com que os arquivos fiquem no estado Working Directory. Após isso utiliza-se o add que passa para o segundo estado na Stage Area, assim pode-se fazer um commit e levar o arquivo para o Local Repository.
+
+Cada commit recebe uma hash chamada SHA-1, possuindo 40 caracteres hexadecimais, que muda a cada alteração feita no arquivo. Nessa string existe uma snapshot, que registra o autor, o pai e a mensagem do commit.
